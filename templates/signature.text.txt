@@ -1,0 +1,14 @@
+{{FULL_NAME}} — {{ROLE_TITLE}}
+{{ORG_NAME}}
+
+Email: {{EMAIL}}
+Tel: {{PHONE_DISPLAY}}
+
+Site: {{WEBSITE_URL}}
+Don: {{DONATE_URL}}
+
+Facebook: {{FACEBOOK_URL}}
+Instagram: {{INSTAGRAM_URL}}
+Vimeo: {{VIMEO_URL}}
+
+{{DISCLAIMER}}

@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Signature - Full</title>
+  </head>
+  <body>
+    <!--
+      Email-safe signature:
+      - Table layout
+      - Inline CSS only
+      - Avoids advanced CSS
+    -->
+
+    <table cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;">
+      <tr>
+        <!-- Logo -->
+        <td style="vertical-align:top;padding:0 14px 0 0;">
+          <img
+            src="{{ASSET_BASE_URL}}/logo.png"
+            alt="{{ORG_NAME}}"
+            width="{{LOGO_WIDTH}}"
+            height="{{LOGO_HEIGHT}}"
+            style="display:block;border:0;outline:none;text-decoration:none;"
+          />
+        </td>
+
+        <!-- Separator -->
+        <td style="width:1px;background-color:{{ACCENT_COLOR}};padding:0;"></td>
+
+        <!-- Content -->
+        <td style="vertical-align:top;padding:0 0 0 14px;">
+          <table cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;">
+            <tr>
+              <td style="font-family:Arial,Helvetica,sans-serif;font-size:14px;line-height:18px;color:#111111;font-weight:bold;">
+                {{FULL_NAME}}
+              </td>
+            </tr>
+            <tr>
+              <td style="font-family:Arial,Helvetica,sans-serif;font-size:13px;line-height:18px;color:#444444;">
+                {{ROLE_TITLE}}
+              </td>
+            </tr>
+
+            <tr><td style="height:8px;line-height:8px;font-size:8px;">&nbsp;</td></tr>
+
+            <!-- Contact -->
+            <tr>
+              <td style="font-family:Arial,Helvetica,sans-serif;font-size:13px;line-height:18px;color:#111111;">
+                <span style="color:#666666;">T</span>:
+                <a href="tel:{{PHONE_TEL}}" style="color:#111111;text-decoration:none;">{{PHONE_DISPLAY}}</a>
+                &nbsp;&nbsp;|&nbsp;&nbsp;
+                <span style="color:#666666;">E</span>:
+                <a href="mailto:{{EMAIL}}" style="color:#111111;text-decoration:none;">{{EMAIL}}</a>
+              </td>
+            </tr>
+
+            <tr>
+              <td style="font-family:Arial,Helvetica,sans-serif;font-size:13px;line-height:18px;color:#111111;">
+                <a href="{{WEBSITE_URL}}" style="color:{{ACCENT_COLOR}};text-decoration:none;">{{WEBSITE_LABEL}}</a>
+                &nbsp;&nbsp;|&nbsp;&nbsp;
+                <a href="{{DONATE_URL}}" style="color:{{ACCENT_COLOR}};text-decoration:none;">{{DONATE_LABEL}}</a>
+              </td>
+            </tr>
+
+            <tr><td style="height:10px;line-height:10px;font-size:10px;">&nbsp;</td></tr>
+
+            <!-- Social icons -->
+            <tr>
+              <td>
+                <table cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;">
+                  <tr>
+                    <td style="padding:0 8px 0 0;">
+                      <a href="{{FACEBOOK_URL}}" style="text-decoration:none;">
+                        <img
+                          src="{{ASSET_BASE_URL}}/icons/facebook.png"
+                          alt="Facebook"
+                          width="{{ICON_SIZE}}"
+                          height="{{ICON_SIZE}}"
+                          style="display:block;border:0;outline:none;text-decoration:none;"
+                        />
+                      </a>
+                    </td>
+                    <td style="padding:0 8px 0 0;">
+                      <a href="{{INSTAGRAM_URL}}" style="text-decoration:none;">
+                        <img
+                          src="{{ASSET_BASE_URL}}/icons/instagram.png"
+                          alt="Instagram"
+                          width="{{ICON_SIZE}}"
+                          height="{{ICON_SIZE}}"
+                          style="display:block;border:0;outline:none;text-decoration:none;"
+                        />
+                      </a>
+                    </td>
+                    <td style="padding:0;">
+                      <a href="{{VIMEO_URL}}" style="text-decoration:none;">
+                        <img
+                          src="{{ASSET_BASE_URL}}/icons/vimeo.png"
+                          alt="Vimeo"
+                          width="{{ICON_SIZE}}"
+                          height="{{ICON_SIZE}}"
+                          style="display:block;border:0;outline:none;text-decoration:none;"
+                        />
+                      </a>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            <tr><td style="height:10px;line-height:10px;font-size:10px;">&nbsp;</td></tr>
+
+            <!-- Disclaimer -->
+            <tr>
+              <td style="font-family:Arial,Helvetica,sans-serif;font-size:11px;line-height:15px;color:#777777;max-width:420px;">
+                {{DISCLAIMER}}
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

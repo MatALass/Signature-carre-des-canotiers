@@ -1,0 +1,32 @@
+{
+    "ORG_NAME": "Carré des Canotiers",
+    "FULL_NAME": "Prénom NOM",
+    "ROLE_TITLE": "Rôle / Fonction",
+    "EMAIL": "contact@example.com",
+    "PHONE_DISPLAY": "+33 0 00 00 00 00",
+    "PHONE_TEL": "+33000000000",
+  
+    "WEBSITE_URL": "https://www.carredescanotiers.fr",
+    "WEBSITE_LABEL": "carredescanotiers.fr",
+  
+    "DONATE_URL": "https://www.helloasso.com",
+    "DONATE_LABEL": "Soutenir (HelloAsso)",
+  
+    "FACEBOOK_URL": "https://facebook.com",
+    "INSTAGRAM_URL": "https://instagram.com",
+    "VIMEO_URL": "https://vimeo.com",
+  
+    "DISCLAIMER": "Ce message et ses pièces jointes sont confidentiels.",
+  
+    "ACCENT_COLOR": "#0B6E4F",
+  
+    "ASSET_BASE_URL": "https://example.com/assets",
+  
+    "ICON_SIZE": "18",
+  
+    "LOGO_WIDTH": "96",
+    "LOGO_HEIGHT": "96",
+  
+    "LOGO_WIDTH_COMPACT": "56",
+    "LOGO_HEIGHT_COMPACT": "56"
+  }
