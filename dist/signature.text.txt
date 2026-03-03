@@ -5,10 +5,11 @@ Email: contact@example.com
 Tel: +33 0 00 00 00 00
 
 Site: https://www.carredescanotiers.fr
-Don: https://www.helloasso.com
+Don: https://www.helloasso.com/associations/carre-des-canotiers
 
-Facebook: https://facebook.com
-Instagram: https://instagram.com
-Vimeo: https://vimeo.com
+Facebook: https://www.facebook.com/profile.php?id=61584402034892
+Instagram: https://www.instagram.com/carre_des_canotiers/
+Vimeo: https://vimeo.com/user179709153
+Sketchfab : https://sketchfab.com/Carredescanotiers
 
 Ce message et ses pièces jointes sont confidentiels.
